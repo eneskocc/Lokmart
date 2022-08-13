@@ -10,15 +10,16 @@ const screen = {
 const apiUrl='https://myapp.herokuapp.com'; 
 
 const colors = {
-    red:'#DB3022',
-    white:'#ffffff',
-    black:'#222222',
-    gray:'#9B9B9B',
-    AcikGray:'#F9F9F9',
-    white1:'#F6F6F6',
-    white2:'#BEA9A9',
-    white3:'#E2BB8D',
-    mor:'#151867',
+   orange:'#FA662E',
+   gray:'#BFC9DA',
+   dark:'#303733',
+   grandient:'#FF8B38',
+   white:'#FFFFFF',
+   softGray:'#7D8FAB',
+   gray1:'#E8ECF2',
+   yellow:'#FFA902',
+   green:'#1CAF5E',
+   red:'#FF2525',
     
 };
 
