@@ -17,7 +17,7 @@ export class CategoriesHorizontal extends Component {
           <Text style={{fontSize: 22, lineHeight: 22, fontWeight: '700'}}>
             Categories
           </Text>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={this.props.onClick}>
             <Text
               style={{
                 fontSize: 16,

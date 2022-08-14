@@ -13,7 +13,7 @@ export class index extends Component {
         <ProfilHeader />
         <View style={{paddingHorizontal: '6%'}}>
           <SearchBox />
-          <CategoriesHorizontal />
+          <CategoriesHorizontal onClick={()=>this.props.navigation.navigate('Categories')}/>
           <Popular />
         </View>
       </View>
