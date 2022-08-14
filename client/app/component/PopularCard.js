@@ -28,10 +28,15 @@ export class PopularCard extends Component {
                 borderRadius: 20,
                 borderWidth: 1,
                 borderColor: colors.softGray,
-                padding: 2,
+                paddingHorizontal: 6,
+                paddingVertical:3,
+                flexDirection:'row',
+                justifyContent:'center',
+                alignItems:'center',
+                marginVertical:4,
               }}>
               <Image
-                style={{width: 10, height: 10}}
+                style={{width: 10, height: 10,marginHorizontal:5}}
                 source={require('../assets/images/ic/star.png')}
               />
               <Text
