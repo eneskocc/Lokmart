@@ -4,6 +4,7 @@ import ProfilHeader from '../../component/ProfilHeader';
 import SearchBox from '../../component/SearchBox';
 import { colors } from '../../config';
 import CategoriesHorizontal from '../../component/CategoriesHorizontal';
+import Popular from '../../component/Popular';
 
 export class index extends Component {
   render() {
@@ -13,6 +14,7 @@ export class index extends Component {
         <View style={{paddingHorizontal: '6%'}}>
           <SearchBox />
           <CategoriesHorizontal />
+          <Popular />
         </View>
       </View>
     );
