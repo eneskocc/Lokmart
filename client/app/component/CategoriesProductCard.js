@@ -1,4 +1,4 @@
-import {Text, View, Image,SafeAreaView} from 'react-native';
+import {Text, View, Image,SafeAreaView, TouchableOpacity} from 'react-native';
 import React, {Component} from 'react';
 import {colors} from '../config';
 
@@ -6,12 +6,13 @@ import {colors} from '../config';
 export class CategoriesProductCard extends Component {
   render() {
     return (
-      <View
+      <TouchableOpacity
         style={{
           marginHorizontal: 10,
           marginVertical: 10,
           paddingHorizontal: '5%',
-        }}>
+        }}
+        onPress={this.props.onClick}>
         <View
           style={{
             width: '100%',
@@ -49,7 +50,7 @@ export class CategoriesProductCard extends Component {
             </Text>
           </View>
         </View>
-      </View>
+      </TouchableOpacity>
     );
   }
 }

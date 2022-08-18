@@ -19,7 +19,7 @@ export class Header extends Component {
             source={require('../assets/images/ic/ic_back.png')}
           />
         </TouchableOpacity>
-        <View style={{width: '78%', alignItems: 'center'}}>
+        <View style={{width: '78%',paddingHorizontal:20}}>
           <Text style={{fontSize: 18, lineHeight: 22, fontWeight: '600'}}>
             {this.props.txt}
           </Text>

@@ -45,7 +45,7 @@ class SearchBox extends Component {
           />
         </View>
         <TouchableOpacity
-          onPress={this.props.onClick}
+          onPress={this.props.onClick1}
           style={{
             flexDirection: 'row',
             justifyContent: 'center',

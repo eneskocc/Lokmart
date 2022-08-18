@@ -12,6 +12,9 @@ export class CategoriesProduct extends Component {
             header={'Fruits'}
             item={'1126 Items'}
             img={require('../assets/images/ic/ic_lemon.png')}
+            onClick={() => this.props.navi.navigate('Products',{
+              header:'Fruits'
+            })}
           />
           <CategoriesProductCard
             header={'Chicken'}

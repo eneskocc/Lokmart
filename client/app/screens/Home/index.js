@@ -14,7 +14,10 @@ export class index extends Component {
         <ProfilHeader />
         <ScrollView>
           <View style={{paddingHorizontal: '6%'}}>
-            <SearchBox />
+            <TouchableOpacity onPress={() => this.props.navigation.navigate('Search')}>
+              <SearchBox onClick1={()=>this.props.navigation.navigate('Filter')}/>
+            </TouchableOpacity>
+
             <CategoriesHorizontal
               onClick={() => this.props.navigation.navigate('Categories')}
             />
@@ -27,7 +30,7 @@ export class index extends Component {
                 alignItems: 'center',
               }}>
               <Text style={{fontSize: 22, lineHeight: 22, fontWeight: '700'}}>
-              All Grocery
+                All Grocery
               </Text>
             </View>
             <ProductCard

@@ -9,7 +9,7 @@ export class Categories extends Component {
     return (
       <View style={{flex:1,backgroundColor:colors.white}}>
         <Header txt={'Categories'} />
-        <CategoriesProduct />
+        <CategoriesProduct  navi={this.props.navigation}/>
       </View>
     );
   }
