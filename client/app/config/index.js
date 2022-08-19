@@ -19,6 +19,7 @@ const colors = {
    gray1:'#E8ECF2',
    yellow:'#FFA902',
    green:'#1CAF5E',
+   green1:'#027335',
    red:'#FF2525',
     
 };
