@@ -17,6 +17,7 @@ export class Products extends Component {
             img={require('../../assets/images/product/placeholder1.png')}
             ratings={'97 Ratings'}
             price={'15$'}
+            onClick={() => this.props.navigation.navigate('ProductDetails')}
           />
           <ProductCard
             header={'Fruits'}

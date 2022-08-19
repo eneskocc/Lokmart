@@ -1,11 +1,12 @@
-import {Text, View, Image, SafeAreaView} from 'react-native';
+import {Text, View, Image, SafeAreaView,TouchableOpacity} from 'react-native';
 import React, {Component} from 'react';
 import {colors} from '../config';
 
 export class ProductCard extends Component {
   render() {
     return (
-      <View
+      <TouchableOpacity
+      onPress={this.props.onClick}
         style={{
           marginHorizontal: 10,
           marginVertical: 10,
@@ -88,7 +89,7 @@ export class ProductCard extends Component {
           </Text>
           </View>
         </View>
-      </View>
+      </TouchableOpacity>
     );
   }
 }

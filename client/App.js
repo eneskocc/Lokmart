@@ -18,6 +18,7 @@ import Categories from './app/screens/Home/Categories';
 import Search from './app/screens/Home/Search';
 import Filter from './app/screens/Home/Filter';
 import Products from './app/screens/Home/Products';
+import ProductDetails from './app/screens/Home/ProductDetails';
 export const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
           <Stack.Screen name="Search" component={Search} />
           <Stack.Screen name="Filter" component={Filter} />
           <Stack.Screen name="Products" component={Products} />
+          <Stack.Screen name="ProductDetails" component={ProductDetails} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
