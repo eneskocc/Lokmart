@@ -33,7 +33,6 @@ export class PopularCard extends Component {
                 flexDirection:'row',
                 justifyContent:'center',
                 alignItems:'center',
-                marginVertical:4,
               }}>
               <Image
                 style={{width: 10, height: 10,marginHorizontal:5}}

@@ -12,7 +12,16 @@ import { colors } from '../config';
 class TextBox extends Component {
   render() {
     return (
-      <View style={styles.SectionStyle}>
+      <View style={{ flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor:colors.gray1,
+    borderColor: '#000',
+    height: 40,
+    borderRadius: 10,
+    marginVertical: 10,
+    width: '100%',
+    padding: 9,}}>
         <Image source={this.props.img1} style={styles.ImageStyle} />
         <TextInput
           style={{flex: 1}}
