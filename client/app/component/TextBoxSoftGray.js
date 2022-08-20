@@ -12,7 +12,7 @@ export class TextBoxSoftGray extends Component {
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: colors.gray,
+            backgroundColor: colors.gray1,
             borderColor: '#000',
 
             borderRadius: 10,
